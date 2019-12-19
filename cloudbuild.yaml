@@ -1,0 +1,7 @@
+steps:
+  # Retrieve and decrypt the GitHub Hub configuration. 
+  - name: 'gcr.io/cloud-builders/gcloud'
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - 'echo hello world'
